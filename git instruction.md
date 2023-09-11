@@ -13,3 +13,8 @@ To start a new git repository follow the instruction below
 3. Open console
 4. Type **git init** and execute the command (this will also create _master_ branch)
 
+## Branches
+Use the **git branch** command with the branch name to create a new branch in your project.   
+Alternatively, use the **git checkout** command with the __-b__ option and specify the branch name as well as the commit to create your branch from.  
+To switch between branches use **git checkout** command with the branch name.
+
