@@ -14,6 +14,7 @@ To start a new git repository follow the instruction below
 4. Type **git init** and execute the command (this will also create _master_ branch)
 
 ## Branches
+
 Use the **git branch** command with the branch name to create a new branch in your project.   
 Alternatively, use the **git checkout** command with the __-b__ option and specify the branch name as well as the commit to create your branch from.  
 To switch between branches use **git checkout** command with the branch name.
@@ -40,6 +41,37 @@ To switch between branches use **git checkout** command with the branch name.
 
  **N.B.!** If the two branches you're trying to merge both changed the same part of the same file, Git won't be able to figure out which version to use. When such a situation occurs, it stops right before the merge commit so that you can resolve the conflicts manually
  
+## Main commands
+`git init`  
 
+Create an empty Git repository or reinitialize an existing one
+
+`git add` 
+
+This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit
+
+`git commit`  
+
+Create a new commit containing the current contents of the index and the given log message describing the changes  
+
+`git commit -m <comment>`  
+Use _-m_ to add message or comment to commit for better understanding of log
+
+
+`git diff`
+
+Show changes between commits, commit and working tree  
+
+`git log`  
+
+Show commit logs  
+
+`git checkout`
+
+Switch branches  
+
+`git status`  
+
+Show the working tree status
 
 
