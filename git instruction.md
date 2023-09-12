@@ -86,15 +86,23 @@ Switch branches
 
 Show the working tree status
 
-`cherry-pick`  
+`git cherry-pick`  
   
-    
+  Apply the changes introduced by some existing commits
+  
       
-`reset`  
+`git reset`  
   
+  Reset master branch to the specified state
   
+`git revert`  
   
-`revert`
+  Revert some existing commits  
+    
+`git rm`  
+  
+  Remove files from the working tree and from the index
+
 
 # Remote repository
 
