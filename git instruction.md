@@ -51,8 +51,11 @@ To switch between branches, use the `git checkout` command with the branch name.
 - `git reset`: Reset the master branch to the specified state.
 - `git revert`: Revert some existing commits.
 - `git rm`: Remove files from the working tree and from the index.
+- `git pull`: Fetch from and integrate with another repository or a local branch.
+- `git push`: Update remote refs along with associated objects.
 
 # Remote Repository
+In this section, we will explore the Git's possibility to work with remote repositories on platform Github 
 
 ## GitHub
 To create a remote repository using GitHub, follow the instructions below:
@@ -64,6 +67,7 @@ To create a remote repository using GitHub, follow the instructions below:
 5. After this, you can `push` your changes into the remote repository and `pull` changes from the remote repository to the local one.
 
 ## Pull Request
+If you're working with someone else's project on GitHub, you won't be able to push your changes directly (unless you have been given permission by the project owner). Instead, you will need to create a pull request. You can create your pull request by following the instructions below:
 1. Make a repository fork.
 2. Clone your repository version.
 3. Create a new branch and make your edits.
