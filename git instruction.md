@@ -2,16 +2,25 @@
 * What is git?
 * Repositories and Branches
 * Main commands
+* Remote repository
 
 ## What is git?
 Git is a distributed version control system that tracks changes in any set of computer files. Git was created by Linus Torvalds during the Linux develpment. Git saves only the difference between files and not the entire files allowing git to save a considerable amount of memory.
 
 ## Repository
-To start a new git repository follow the instruction below
+To start a new local git repository follow the instruction below
 1. Create a directory to contain the project
 2. Go into the new directory
 3. Open console
 4. Type **git init** and execute the command (this will also create _master_ branch)
+
+### Createating repository by cloning  
+You can create a new local repository by cloning already existing one from the remote server.  
+Please note, that git supports several URL syntaxes. For more information visit official git manual on [https://git-scm.com/docs/git-clone](https://git-scm.com/docs/git-clone)
+
+To copy repository from remote sever  
+1. Run console
+2. Use `git clone {URL}` and then execute the command
 
 ## Branches
 
@@ -74,4 +83,14 @@ Switch branches
 
 Show the working tree status
 
+`cherry-pick`  
+  
+    
+      
+`reset`  
+  
+  
+
+  
+`revert`
 
