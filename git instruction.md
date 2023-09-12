@@ -22,6 +22,8 @@ To copy repository from remote sever
 1. Run console
 2. Use `git clone {URL}` and then execute the command
 
+> __N.B.!__ don't forget to use `cd` command to change directory of the repository folder
+
 ## Branches
 
 Use the **git branch** command with the branch name to create a new branch in your project.   
@@ -95,3 +97,21 @@ Show the working tree status
   
 `revert`
 
+# Remote repository
+
+## Github
+To create remote repository using Github follow the instruction below
+1. Create Github account or sign in
+2. Create local repository
+3. Synchronize your local repositpry with remote one. Github has its own detailed instruction  
+![monosnap screenshot just to show Markdown skills](https://monosnap.com/image/4oK79Og7dTGyzcca8DhVXP3XvkkxG8)
+4. Use `push` command to add your local repository to your Github repository (for the first time you will need to authorize your account)  
+5. After this you can `push` your changes into remote repository and `pull` changes remote repository to the local one
+
+## Pull request
+1. Make repository fork
+2. Clone your repository version
+3. Create new branch and make your edits
+4. Commit changes
+5. Push local repository to your Github repo
+6. On Github push _pull request_ button
