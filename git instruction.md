@@ -74,6 +74,7 @@ Show changes between commits, commit and working tree
 `git log`  
 
 Show commit logs  
+for better visualization use command `git log --graph`  
 
 `git checkout`
 
