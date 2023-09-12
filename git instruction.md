@@ -93,7 +93,6 @@ Show the working tree status
 `reset`  
   
   
-
   
 `revert`
 
